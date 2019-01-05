@@ -1,0 +1,24 @@
+{
+  "name": "algorithms-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "riteway -r esm src/**/*.test.js | tap-nirvana"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asheq/algorithms-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asheq/algorithms-practice/issues"
+  },
+  "homepage": "https://github.com/Asheq/algorithms-practice#readme",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "riteway": "^6.1.2",
+    "tap-nirvana": "^1.1.0"
+  }
+}
